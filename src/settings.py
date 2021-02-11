@@ -31,7 +31,7 @@ class Settings:
     def get_salesforce_credentials():
 
         # Retrieve login parameters from config file
-        with open('/Users/quentinbracq/Desktop/pycharmprojects/investingcom/credentials/config.json') as credentials:
+        with open('/Users/quentinbracq/Desktop/pycharmprojects/credentials/config.json') as credentials:
             credentials = json.load(credentials)
 
         # Get environment variables
