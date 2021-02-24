@@ -1,32 +1,44 @@
-# Create Salesforce Deals Table Project
-> Data Scientist at Investing.com since March 2019
+<h1 align="center">
+  Business Operations Dashboard
+</p>
 
-This directory was created to help identify deals status from Salesforce.
+<img src="https://github.com/quentinb28/business-operations-dashboard/blob/main/images/business-operations-dashboard.gif" width=100%>
 
-## Installing / Getting started
+<p align="center">
+ <img src="https://img.shields.io/badge/salesforce-v2018-pink.svg" />
+ <img src="https://img.shields.io/badge/soql-v18.0-orange.svg" />
+ <img src="https://img.shields.io/badge/python-v3.7-yellow.svg" />
+ <img src="https://img.shields.io/badge/tableau-v2019-informational.svg" />
+</p>
 
-The minimal requirements are pip and Python v 3.7.
+## Table of Contents
 
-## Developing / Publishing
+1. [Project Objectives](#Project-Objectives)
+2. [Resources / Tools](#Resources-/-Tools)
+3. [Data Collection](#Data-Collection)
+4. [Contributing](#Contributing)
+5. [Licensing](#Licensing)
 
-Here's a brief intro about what you must do in order to start developing
-the project further:
+## 1. Project Objectives
 
-```shell
-git clone https://github.com/quentinb28/investingcom.git
-cd investingcom/create_sf_deals_table
-git checkout your_branch
-BRING YOUR AMAZING IDEAS!
-git add your_changes
-git commit -m 'added your_changes'
-git push
-```
+* Collect all active deals from Salesforce.
+* Display results in an easy-to-read Tableau dashboard.
+* Improve communication between business and operations.
+* Make operations processes more efficient.
 
-## Features
-- get deals information from Salesforce Product Lines
-- save to Google Big Query as sf_active_deals
+## 2. Resources / Tools
 
-## Contributing
+* Salesforce
+* SOQL
+* Python
+* Tableau
+
+## 3. Data Collection
+
+* Create SOQL query: [SOQL Query](https://github.com/quentinb28/business-operations-dashboard/blob/main/src/query_soql.py)
+* Build GCP function: [GCP function](https://github.com/quentinb28/business-operations-dashboard/blob/main/src/gcp_function.py)
+
+## 4. Contributing
 
 If you'd like to contribute, please fork the repository and use a feature
 branch. Pull requests are warmly welcome.
@@ -34,6 +46,6 @@ branch. Pull requests are warmly welcome.
 Please keep in mind that some of these projects might not be relevant anymore,
 as our processes constantly evolve.
 
-## Licensing
+## 5. Licensing
 
 Copyright © Investing.com . All rights reserved.
