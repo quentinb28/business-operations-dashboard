@@ -13,32 +13,31 @@
 
 ## Table of Contents
 
-1. [Project Objectives](#Project-Objectives)
-2. [Resources / Tools](#Resources-/-Tools)
-3. [Data Collection](#Data-Collection)
-4. [Contributing](#Contributing)
-5. [Licensing](#Licensing)
+1. [Situation](#Situation)
+2. [Techniques](#Techniques)
+3. [Action](#Action)
+4. [Results](#Results)
+5. [Contributing](#Contributing)
+6. [Licensing](#Licensing)
 
-## 1. Project Objectives
+## 1. Situation
 
-* Collect all active deals from Salesforce.
-* Display results in an easy-to-read Tableau dashboard.
-* Improve communication between business and operations.
-* Make operations processes more efficient.
+Investing.com is a financial platform and news website; one of the top three global financial websites in the world. It offers market quotes,information about stocks, futures, options, analysis, commodities, and an economic calendar. Most of the revenue is generated through advertising; Premium and Remnant. The Remnant business models are CPL / CPA / Networks. This implies closing many deals (Countries * Clients) on a regular basis. This may result in cumbersome processes for the team.
 
-## 2. Resources / Tools
+## 2. Techniques
 
-* Salesforce
-* SOQL
-* Python
-* Tableau
+The technique was to extract the relevant data from Salesforce using Python and SOQL and then display that information in an easy-to-read Tableau dashboard. 
 
-## 3. Data Collection
 
-* Create SOQL query: [SOQL Query](https://github.com/quentinb28/business-operations-dashboard/blob/main/src/query_soql.py)
-* Build GCP function: [GCP function](https://github.com/quentinb28/business-operations-dashboard/blob/main/src/gcp_function.py)
+## 3. Action
 
-## 4. Contributing
+The relevant data was first collected from Salesforce, then processed in a Python script and finally displayed in a Tableau dashboard as part of full end-to-end ETL process. 
+
+## 4. Results
+
+This solution enables us to make operations more efficient and to improve the communication between the Business Team and the Operation Team.
+
+## 5. Contributing
 
 If you'd like to contribute, please fork the repository and use a feature
 branch. Pull requests are warmly welcome.
@@ -46,6 +45,6 @@ branch. Pull requests are warmly welcome.
 Please keep in mind that some of these projects might not be relevant anymore,
 as our processes constantly evolve.
 
-## 5. Licensing
+## 6. Licensing
 
 Copyright © Investing.com . All rights reserved.
