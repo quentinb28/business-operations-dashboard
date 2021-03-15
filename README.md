@@ -28,11 +28,9 @@ Investing.com is a financial platform and news website; one of the top three glo
 
 The process was, as follows:
 
-* Extract the relevant data from the Salesforce API
-
-* Transform the data to make it more readable
-
-* Load the transformed data as a BigQuery table
+* Extract the relevant data from the Salesforce API.
+* Transform the data to make it more readable.
+* Load the transformed data as a BigQuery table.
 
 
 The technique was to extract the relevant data from Salesforce using Python and SOQL and then display that information in an easy-to-read Tableau dashboard. 
