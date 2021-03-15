@@ -32,9 +32,7 @@ The process was, as follows:
 * Transform the data to make it more readable.
 * Load the transformed data as a BigQuery table.
 
-
 The technique was to extract the relevant data from Salesforce using Python and SOQL and then display that information in an easy-to-read Tableau dashboard. 
-
 
 ## 3. Action
 
