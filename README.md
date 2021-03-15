@@ -24,14 +24,23 @@
 
 Investing.com is a financial platform and news website; one of the top three global financial websites in the world. It offers market quotes,information about stocks, futures, options, analysis, commodities, and an economic calendar. Most of the revenue is generated through advertising; Premium and Remnant. The Remnant business models are CPL / CPA / Networks. This implies closing many deals (Countries * Clients) on a regular basis. This may result in cumbersome processes for the team.
 
-## 2. Techniques
+## 2. Task
+
+The process was, as follows:
+
+* Extract the relevant data from the Salesforce API
+
+* Transform the data to make it more readable
+
+* Load the transformed data as a BigQuery table
+
 
 The technique was to extract the relevant data from Salesforce using Python and SOQL and then display that information in an easy-to-read Tableau dashboard. 
 
 
 ## 3. Action
 
-The relevant data was first collected from Salesforce, then processed in a Python script and finally displayed in a Tableau dashboard as part of full end-to-end ETL process. 
+Firstly, the deals data was collected from the Salesforce API using a combination of Python and SOQL (Salesforce Object Query Language). Then the data was cleaned and some substrings were extracted from names for dynamic display purposes. Finally the data was saved to BigQuery as a table and a Tableau dashboard was built from it in an more manageable way.
 
 ## 4. Results
 
